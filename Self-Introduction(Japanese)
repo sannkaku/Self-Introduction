@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset = "UTF-8">
+	<meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href= "(Job Hunting)YHirata Self-introduction.css">
+	<link rel="stylesheet" href= "(Job Hunting)Responsive_YHirata Self-introduction.css">
+
+	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src= "(Job Hunting)YHirata Self-introduction.js"></script>
+
+	<title>Yasuyuki Hirata:自己紹介</title>
+</head>
+
+<body>
+<div id= "wrapper"> <!--レスポンシブデザインをしても左右marginによる隙間ができないように全体をdivで囲んだ。-->
+	<header>
+		<h1>平田泰之プロフィール</h1>
+	</header>
+
+	<article>
+	<div id= "wrapper_basic_info" class= "wrappers">
+
+		<table border= "1" id= "basic_info" class= "skills">
+			<thead>
+				<tr><th colspan ="2">基本情報</th></tr>
+			</thead>
+			<tbody>
+				<tr> <td class= "basic_info_left">氏名</td> <td>平田 泰之</td> </tr>
+				<tr> <td class= "basic_info_left">生年月日</td> <td>1988年10月6日</td> </tr>
+				<tr> <td class= "basic_info_left">出身地</td> <td>大阪府高槻市</td> </tr>
+				<tr> <td class= "basic_info_left">心がけていること</td> <td>謙虚であること。感謝の気持ちを持ち、それを適切に表すこと。すぐに希望をあきらめないこと。平和に感謝すること。</td> </tr>
+				<tr> <td class= "basic_info_left">障害の診断日</td> <td>2012年1月21日</td> </tr>
+				<tr> <td class= "basic_info_left">診断を受けて良かったこと</td> <td>これまで会った真の友人との絆が一層深まり安定したこと。診断後に降りかかってきた数々の人の闇（共依存など）に完全に飲み込まれずにすんだこと。
+				それから出会った友人たちとの素晴らしい関係を築けること。自分の特性からくる弱さを責めなくなったこと（他罰的な部分もこれにより抑えられる）。
+				自分の特性からくる強みから新しい趣味や人生の喜びがいくつも生まれたこと。</td> </tr>
+				<tr> <td class= "basic_info_left">特技</td> <td>料理、カラオケ、写真撮影、語学、文章を書くこと……等が上手だと言って頂けることが多いように思います。</td> </tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id= "image_cities">　 <!--世界の都市を朝～夜の順番で配置。そのままだとやや殺風景なページに彩りを持たせたかった-->
+		<a href= "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%B3%E3%83%98%E3%83%B3" target= "_blank"><img src= "./Images/Munich_1280x960.jpg" id="munich" class= "images"></a>
+		<a href= "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%9B%E3%83%AB%E3%83%A0" target= "_blank"><img src= "./Images/Stockholm_1280x960.jpg" id="stockholm" class= "images"></a>
+		<br class= "responsive-folding">
+		<a href= "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%B3%E3%83%89%E3%83%B3" target= "_blank"><img src= "./Images/London-1920x1200.jpg" id="london" class= "images"></a>
+		<a href= "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A8%E3%83%BC%E3%82%AF" target= "_blank"><img src= "./Images/NYC_1280x960.jpg" id="newyork" class= "images"></a>
+	</div>
+
+	<p id="image_cities_click">上の画像をそれぞれクリックすると………</p>
+
+	<div id= "wrapper_job_introduction" class= "wrappers">
+		<h2 id= "intro_jump_no1">前職から現在の学習に至るまで</h2>
+			<ul>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_purple">前職での職務について</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>2012年1月21日に<b>アスペルガー症候群の診断を受けてから、自分の能力・特性を
+						より人々の幸せのためにもより良く使いたい</b>という思いはずっとありました。</p>
+						<p>診断後、障害者雇用で工場事務（購買系）の仕事を5年半ほど行っておりました。
+						聞くところによると、平田が入る前の職場内では、英語を解する人材がいない、加えて貿易事務が肌に合わず苦戦されていた方も多かったことが悩みであったようでした。
+						その時、TOEICの点数がある程度あった平田に白羽の矢が立ち、思いもがけず海外と関わる仕事ができました。</p>
+						<p>また、障害特性上、臨機応変な対応をたくさん求められる（例：ひっきりなしにかかってくる電話に対応する）と、あっという間にパンクしてしまうという弱点もあるため、
+						大きなロットで発注→工場到着、までの時間が長い海外購買の仕事は、大量の臨機応変な対応をする代わりに確実に大ロットの商品を工場に入れる仕事だったので、
+						この職場内では自分にも合っておったようです。反対に、自分の苦手な短期での臨機応変な対応の多い国内調達については他の方々がやってくださることで、
+						<b>部署内でのチームプレー・助け合い・相互尊重</b>ができたと思います。</p>
+						<p>購買先の諸外国の事情を知ったうえでの購買も自分にとっては苦痛ではなく、むしろ長く時間を要する海外購買に特化することで、
+						国内からの購買が多い他の部門内の社員の皆様や上長各位からも信頼頂くことができたことは有難かったと思います。</p>
+						<p>退職の際には、言葉の壁を苦痛に感じている担当者の方であっても、ルーティン・パターン化できる業務などをまとめていき、
+						引継ぎ資料や業務用フォーマットを日ごろから作成・改良を続けておったことが役立ったかと思います。</p>
+					</div>
+				</li>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_purple">IT業界への挑戦を決めたきっかけ</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>もっと何か己の能力を役立たせることはできないか、と前職で考えていた矢先に、
+						プログラミング無料体験のWeb広告を偶然発見し、何か感じるものがあり参加してみたら、
+						自分に合っていると感じたことが、方向転換のきっかけでした。
+						</p>
+						<p>5年半の工場勤務の合間に、プログラミング独習のためのWebサービスやインフラも非常に整備されていることと、
+						発達障害のIT業界就職支援に関する土台も整いつつあることを知り、その後も様々なオンラインプログラミング学習所の無料体験に参加した結果、
+						そちらの道に進もう、自分でもやれるのでは、と思い、学習時間と学習環境確保のために前職退職に踏み切りました。2018年4月のことでした。</p>
+						<p>職務経歴などから、語学の使える仕事をしたいのではないか、何故辞めたのか、と思われることも時々あるのですが、
+						私は自分の障害特性の長所・短所などを考えてみても、
+						<b>語学にこだわるよりも、IT関係の仕事の方がより自分の特性を生かして継続的に頑張って社会に貢献できる</b>と感じております。</p>
+					</div>
+				</li>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_purple">前職退職後の学習について</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>前職を退職後は、月額制の自習用のカフェに平日の10時～17時まで毎日訪れ
+						（※カフェは平日10時～17時までの利用プランだったため、8時9時からの利用はできなかった）
+						オンラインのプログラミングスクールや学習サービスでの勉強に励んでおりました。
+						主に利用していたものは、Codecamp、Progateになります。</p>
+						<p>自らどこがどうなっているのかも考えながらソースコードの写し（＝写経）や、
+						HTML、CSSを使用したホームページの見栄えづくりの実習などを主に行いました。</p>
+						<p>8月からは、2018年4月より大阪での支所が開所した、発達障害・精神障害者向けのIT学習所
+						「フロンティアリンク」に大体週3-4日程度、通所しております。</p>
+						<p>最近はありがたいことに、有志により開催される勉強会（「もくもく会」など）が大阪中心部でも多く、
+						月に2～3回は参加し、ソースコードを打って慣れる修練や知識の習得に励んでいます。</p>
+					</div>
+				</li>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_purple">今後の勤務に当たって</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>現在まではHTML、CSS、Sass、JavaScript&jQuery、PHP、Rubyの学習経験があります。</p>
+						<p>その中でもフロントエンド系の言語、主に<b>HTML、CSS、Sass、jQuery</b>を扱うことに現在は大きな関心があります。
+						技術の習得や深化をその3つのみで終わらせる・満足してしまうことなく、将来的には
+						Bootstrapや、jQuery以外のJavaScript系ライブラリも習得できるように、
+						また、PHPなどバックエンド系も実践できるよう、継続的に勉強を頑張りたいと思います。</p>
+					</div>
+				</li>
+			</ul>
+	</div>
+
+
+	<div id= "wrapper_syndrome" class= "wrappers">
+		<h2 id= "intro_jump_no2">障害特性：強みと弱み</h2> <!--強みを左に、弱みを右に置くことはできないか？ -->
+			<ul>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_blue">強み１：長期的な記憶力が高い</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>繰り返し何度も覚えようとすることで、最終的に記憶力が定着すると、長い間その記憶が残りやすい傾向にあります。</p>
+						<p>過去に類似の事象があって、このようなことがあった、このようにに解決した…などを数ヶ月～数年経っていても覚えていることがしばしばあり、
+						同僚や上司から驚かれたり頼られることも何度かありました。</p>
+						<p></p>
+						<p>加えて、一度覚えたことに固執したりせず、現在の状況に合わせて、周囲の意見も聞きながら改良案を取り入れることも、謙虚に行うようにしています。</p>
+					</div>
+				</li>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_blue">強み２：ルーチン化・パターン化が得意な傾向</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>ケアレスミスなどを防ぐ意味合いもあるのですが、仕事のやり方をある程度ルーチンに落とし込ませると、そのあとはスムーズに繰り返しできることが多いと思います。</p>
+						<p></p>
+						<p>ルーチン化できる作業や動作はOffice系のドキュメントに書き込んでおき、それを課内のマニュアルにしていたことがありました。
+						こうした資料は、自分が見直しをできるのみならず、課内でも知識の共有や多能工化、引継ぎにおいて役に立つ場面がありました。</p>
+						<p>あまりに細かすぎると自分も、周りもミスを誘発する原因にもなるため、無駄をそぎ落としつつ、見逃してはならないところを確実に抑えるセンスも磨くようにしていきました。</p>
+					</div>
+				</li>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_blue">強み３：色・形の認識に強い</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>アスペルガー症候群は色覚や図形の認識が強い特性もある、ということで、色を積極的に活用した資料やノートづくりに定評を頂いてきました。
+						前職においても、ExcelやPowerPointを活用した資料やマニュアル作りが、カラフルで見やすい・わかりやすいと評判を頂けました。
+						仕事を平田から誰かに引き継いで頂く際にも、これらのマニュアルを使えば細かいことまで全部口頭で説明しなくてもよくなるため、
+						引き継ぐ側の方々も早く正確にスキルを身に着けられていたと思います。</p>
+						<p>自ら学習に励むときも、主に色付きボールペンと蛍光ペンを使ってノートを書くことで、鉛筆だけで書いたノートよりも早く確実に知識が定着するようにしています。</p>
+					</div>
+				</li>
+				</ul>
+
+				<ul>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_red">弱み１：短期的な記憶力と臨機応変な対応</h3> <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>数分～数十分で様々な情報が入ってくると、その中の一部の情報のみにどうしても集中してしまう特性があるようです。</p>
+						<p>そのため、他の方々だとすぐに理解できることを理解する上で時間が掛かったり、理解の漏れが出てミスにつながってしまうこともあります。</p>
+						<p>どこが分からなかったのかに気づけることもあるので、その際はミス回避のためにどういうことなのかを質問させて頂くかもしれませんが、
+						人から見ると細かいことを質問することもあるかもしれません。
+						恐れ入りますが、こうした質問を、からかったり笑ったり、あるいは私が人を馬鹿にするために聞いていると認識しないで頂ければ幸いに存じます。</p>
+						<p>特に仕事の手順に関することは、メモを取って整理することで、同じことを何度も何度も聞き返すことを回避できればと思います。</p>
+						<p>その結果、私自身もミスなく確実に成果を出せるようにしてければと願っております。</p>
+					</div>
+				</li>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_red">弱み２：言葉の認識が非常に敏感で、冗談や皮肉でもひどく傷つきやすい。叱責で潰れてしまいやすい。</h3>  <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>冗談や皮肉でも、人をからかう言葉を向けられると、著しく傷ついてしまい頭からそれらの言葉が離れなくなってしまう傾向があります。
+						また、私自身もおかしなことはしないように気を付けたいと思いますが、強い叱責を受けてしまうとかえって立ち上がる気力が削がれてしまうことが大半です。</p>
+						<p>これまで、私自身は一生懸命にやっているつもりが、その動きや振る舞いが「滑稽」「弱そう」「嫌なことを言いやすそう」に見えてしまうこともあるようで、
+						そこを目を付けられるのか、私だけからかいや侮辱の言葉を浴びせられたり、ストレスのはけ口にされて罵詈雑言を浴びせられることが、残念ながら公私共にありました。</p>
+						<p>幸い現在では、平田を理解しサポートしてくださる仲間も増えたとはいえ、やはりいじめやからかいに晒され続けることは、
+						強い記憶力も相まって著しいストレッサーになり、ついには自分の中で処理しきれず、
+						遂には暴発してしまい、周りにも小さくない迷惑をかけうる可能性があることを危惧しています。</p>
+						<p>一人だけで、このような干渉に対応することには限界を感じており、職場においてはこれまでも、上長や支援者に仲介して頂くことで、被害が繰り返されることを何とか抑えることができました。</p>
+						<p>そのため、万が一そのような言葉や態度に晒され、仕事にも悪影響が出始めていると分かった場合、社内外で相談できる方々が一人でも多くいればありがたく存じます。</p>
+					</div>
+				</li>
+				<li class= "job_introduction">
+					<div class= "pulldown_menu">
+						<h3 class= "pulldown_red">弱み３：感覚（五感）の過敏</h3> <!-- ここでjQueryによるスライドメニュー使用 -->
+					</div>
+					<div class= "menu_inclution">
+						<p>職場では主に、視覚、嗅覚、聴覚の過敏が影響することがあると思いますが、対策も併せてまとめますと：</p>
+						<ul>
+							<li class= "oversensitivity">視覚：光などの刺激ですぐに目が疲れてしまうことがあります。
+							⇒パソコンなどの光を暗めにする、ブルーライトカットをするなど対策をすれば、目が疲れにくくなります。</li>
+							<li class= "oversensitivity">嗅覚：非常に強い香水やたばこの匂いなどで集中力が削がれてしまいがちです。
+							⇒マスクをつけて防御することもありますが、それでもにおいがマスクを貫通して入ってくることがあります。その場合は席替えをお願いすることもあるかもしれません。
+							（参考：イトーキ在籍時、5メートルほど離れていても匂うほど、すさまじい香水の匂いを放つ人がいた。事情を知っていた当時の課長が、オフィスのレイアウト変更の際に、平田の事情に合わせてその人とかなり離れた席を指定して下さった。）</li>
+							<li class= "oversensitivity">聴覚：攻撃的・破壊的に聞こえる音：必要以上に強く物を置いたり叩いたりする音、大声での叱責（※叱責に値する確固たる理由がある場合はその限りではない）が特に気になりがち、集中できなくなったりすることがあります。
+							⇒普段から耳栓を使う、ウォークマンを聞き続けることで音のストレスを遮断しつつ、やるべきことに集中しています。
+							もちろん、この間に誰かに話しかけられるなどは、全く問題ございません。
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+	</div>
+
+	<div id= "image_flags"> <!--国旗の画像を並べている-->
+		<img src= "./Images/Flag_GBR_1024x768.jpg" class= "images"> <!--(!)各img要素自体はdivタグで囲まないこと。縦並びになってしまう原因になる。-->
+		<img src= "./Images/Flag_GER_1024x768.jpg" class= "images">
+		<br class= "responsive-folding">
+		<img src= "./Images/Flag_RUS_1024x768.jpg" class= "images">
+		<img src= "./Images/Flag_SWE_1024x768.jpg" class= "images">
+	</div>
+
+	<div id= "wrapper_skills_introduction" class= "wrappers">
+		<h2 id= "intro_jump_no3">スキル一覧</h2>
+			<table border= "1" id="language_skills" class= "skills">
+				<thead>
+					<tr> <th colspan= "2">外国語学力について(2018年12月時点）</th></tr>
+				</thead>
+				<tbody>
+					<tr> <td>高度な会話、ビジネスレベルの会話もあまり不自由せず</td> <td>英語</td> </tr>
+					<tr> <td>日常会話、読み書きを普段からしているレベル</td> <td>ドイツ語</td> </tr>
+					<tr> <td>会話はまだ課題も多いが、読み書きがある程度可能</td> <td>スウェーデン語、フランス語</td> </tr>
+					<tr> <td>まだまだ入門者。もっと基礎文法や表現を磨きたい</td> <td>スペイン語、ロシア語、中国語</td> </tr>
+				</tbody>
+			</table>
+
+			<table border= "1" id="certification_skills" class= "skills">
+				<thead>
+					<tr> <th colspan= "3">所持資格について</th></tr>
+					<tr> <td>取得年</td> <td>資格名</td> <td>級・得点</td> </tr>
+				</thead>
+				<tbody>
+					<tr> <td>2017</td> <td><a href= "https://www.iibc-global.org/toeic/test/lr/about.html" target= "_blank">TOEIC L/R公開テスト</a></td> <td>830</td> </tr>
+					<tr> <td>2017</td> <td><a href= "http://www.eiken.or.jp/eiken/" target= "_blank">実用英語技能検定</a></td> <td>準1級</td> </tr>
+					<tr> <td>2017</td> <td><a href= "http://www.dokken.or.jp/" target= "_blank">ドイツ語技能検定試験</a></td> <td>3級</td> </tr>
+					<tr> <td>2016</td> <td><a href= "https://mos.odyssey-com.co.jp/index.html" target= "_blank">Microsoft Office Word</a></td> <td>Specialist</td> </tr>
+					<tr> <td>2016</td> <td><a href= "https://mos.odyssey-com.co.jp/index.html" target= "_blank">Microsoft Office Excel</a></td> <td>Specialist</td> </tr>
+					<tr> <td>2015</td> <td><a href= "https://www.goukaku.ne.jp/test_pcspeed_eg.html" target= "_blank">パソコンスピード認定試験　英語</a></td> <td>1級</td> </tr>
+					<tr> <td>2015</td> <td><a href= "https://www.goukaku.ne.jp/test_pcspeed.html" target= "_blank">パソコンスピード認定試験　日本語</a></td> <td>初段</td> </tr>
+					<tr> <td>2011</td> <td><a href= "https://www.kentei.ne.jp/bookkeeping" target= "_blank">日本商工会議所簿記検定</a></td> <td>3級</td> </tr>
+					<tr> <td>2011</td> <td><a href= "https://www3.jitec.ipa.go.jp/JitesCbt/index.html" target= "_blank">ITパスポート試験</a></td> <td></td> </tr>
+				</tbody>
+			</table>
+	</div>
+	</article>
+
+	<footer>
+	<div  class= "wrappers">
+		<h3>下記クリックで各項目にジャンプします。</h3>
+			<ul>
+				<li class= "footer_list"><a href= "#intro_jump_no1">前職から現在の学習に至るまで</a></li>
+				<li class= "footer_list"><a href= "#intro_jump_no2">障害特性：強みと弱み</a></li>
+				<li class= "footer_list"><a href= "#intro_jump_no3">スキル一覧</a></li>
+			</ul>
+	</div>
+	</footer>
+</div> <!--#wrapper ここで終了-->
+</body>
+</html>
