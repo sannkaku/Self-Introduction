@@ -1,18 +1,18 @@
 $(function(){
-	//�����̒����ƒZ���A�v���_�E�����j���[�쐬
+	//特性の長所と短所、プルダウンメニュー作成
 	$(".pulldown_menu").on("click", function() {
 		$(this).next().slideToggle();
 	});
 	
 	
-	//�e�s�s�̉摜�̏Љ�@�\�쐬
+	//各都市の画像の紹介文機能作成
 	$("#munich").click(munich);
 	$("#stockholm").click(stockholm);
 	$("#london").click(london);
 	$("#newyork").click(newyork);
 	
 	
-	//(!WARNING!)�N���b�N�ŕς�镔���܂ł͂����̂����A���{�ꂾ�ƕ����������N���Ă��܂��B
+	//(!WARNING!)クリックで変わる部分まではいいのだが、日本語だと文字化けが起きてしまう。
 	function munich(){
 		$("#image_cities_click").text("Gute Reise nach --- Munich").css("color","#804000");
 	}
