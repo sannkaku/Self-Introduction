@@ -6,6 +6,12 @@ Breakpoint is based on following Japanese site
 https://www.seojuku.com/blog/responsive-mediaquery.html
 */
 
+@media only screen and (min-width: 900px) {
+	.responsive-folding{
+		display: none;
+	}
+}
+
 
 @media only screen and (max-width:1024px){  /*PC、横向きのタブレット向け*/
 	body{
@@ -69,12 +75,5 @@ https://www.seojuku.com/blog/responsive-mediaquery.html
 	
 	footer{
 		text-align: center;
-	}
-}
-
-
-@media only screen and (min-width: 920px) {
-	.responsive-folding{
-		display: none;
 	}
 }
