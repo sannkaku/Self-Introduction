@@ -1,3 +1,5 @@
+@charset "Shift-JIS";
+
 *{
 	box-sizing: border-box;
 }
@@ -11,7 +13,7 @@ body{
 	margin: 0;
 	background-image: url(./Background/45degreee_fabric.png);
 	hyphens: auto;
-	font-family: Osaka,Meiryo, ƒƒCƒŠƒI,"ŸàƒSƒVƒbƒN‘Ì", "Yu Gothic",verdana,"ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro","‚l‚r ‚oƒSƒVƒbƒN","MS PGothic",Sans-Serif;
+	font-family: Osaka,Meiryo, ãƒ¡ã‚¤ãƒªã‚ª,"æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "Yu Gothic",verdana,"ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3","Hiragino Kaku Gothic Pro","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","MS PGothic",Sans-Serif;
 }
 
 header{
@@ -27,7 +29,7 @@ section{
 }
 
 
-p{		/*(!)ã‰º‚ÌŒ„ŠÔ‚ğÁ‚µ‚Ä‚æ‚è©‘R‚ÈŒ©‚½–Ú‚ÉB Wiping out gaps of p elements*/
+p{		/*(!)ä¸Šä¸‹ã®éš™é–“ã‚’æ¶ˆã—ã¦ã‚ˆã‚Šè‡ªç„¶ãªè¦‹ãŸç›®ã«ã€‚ Wiping out gaps of p elements*/
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -153,7 +155,7 @@ h2 small{
 	display: inline-block;
 }
 
-/*jQuery‚ÌÜ‚èô‚İÀ‘• jQuery toggle buttons«*/
+/*jQueryã®æŠ˜ã‚Šç•³ã¿å®Ÿè£… jQuery toggle buttonsâ†“*/
 
 ul{
 	margin-bottom: 0px;
@@ -191,7 +193,7 @@ h3{
 
 .oversensitivity{
 	margin:8px 12px 8px 12px;
-	font-family: "ƒƒCƒŠƒI","Meiryo", Sans-Serif;
+	font-family: "ãƒ¡ã‚¤ãƒªã‚ª","Meiryo", Sans-Serif;
 	font-size: 14px;
 	list-style-type: square;
 }
