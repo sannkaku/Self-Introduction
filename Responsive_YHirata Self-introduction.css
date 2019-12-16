@@ -1,18 +1,20 @@
+@charset "Shift-JIS";
+
 /*
 Breakpoint is based on following Japanese site
-ƒuƒŒƒCƒNƒ|ƒCƒ“ƒg‚É‚Â‚¢‚Ä‚ÍA‚±‚¿‚ç‚ğQÆF
+ãƒ–ãƒ¬ã‚¤ã‚¯ãƒã‚¤ãƒ³ãƒˆã«ã¤ã„ã¦ã¯ã€ã“ã¡ã‚‰ã‚’å‚ç…§ï¼š
 https://www.seojuku.com/blog/responsive-mediaquery.html
 */
 
 
-@media only screen and (max-width:1024px){  /*PCA‰¡Œü‚«‚Ìƒ^ƒuƒŒƒbƒgŒü‚¯*/
+@media only screen and (max-width:1024px){  /*PCã€æ¨ªå‘ãã®ã‚¿ãƒ–ãƒ¬ãƒƒãƒˆå‘ã‘*/
 	body{
 		font-size: 15px;
 	}
 }
 
 
-@media only screen and (max-width:900px) {  /*cŒü‚«‚Ìƒ^ƒuƒŒƒbƒgA‰¡Œü‚«‚ÌƒXƒ}[ƒgƒtƒHƒ“Œü‚¯*/
+@media only screen and (max-width:900px) {  /*ç¸¦å‘ãã®ã‚¿ãƒ–ãƒ¬ãƒƒãƒˆã€æ¨ªå‘ãã®ã‚¹ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒ³å‘ã‘*/
 	body{
 		font-size: 13px;
 	}
@@ -35,7 +37,7 @@ https://www.seojuku.com/blog/responsive-mediaquery.html
 }
 
 
-@media only screen and (max-width:380px) {  /*cŒü‚«‚ÌƒXƒ}[ƒgƒtƒHƒ“Œü‚¯*/
+@media only screen and (max-width:380px) {  /*ç¸¦å‘ãã®ã‚¹ãƒãƒ¼ãƒˆãƒ•ã‚©ãƒ³å‘ã‘*/
 	body{
 		font-size: 11px;
 	}
@@ -46,7 +48,7 @@ https://www.seojuku.com/blog/responsive-mediaquery.html
 	
 	h1{
 		font-size: 18px;
-		font-family: '‚l‚r ƒSƒVƒbƒN';
+		font-family: 'ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯';
 	}
 	
 	#image_cities img{
