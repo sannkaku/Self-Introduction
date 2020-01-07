@@ -36,10 +36,25 @@ https://www.seojuku.com/blog/responsive-mediaquery.html
 		height: 80px;
 		margin-bottom: 10px;
 	}
-	
+
+	#responsive-folding{
+		display: flex;
+	}
+
+	.pulldown_purple_click,
+	.pulldown_blue_click,
+	.pulldown_red_click{
+		font-size: 16px;
+	}
+
 	.skills{
 		font-size: 13px;
 	}
+
+	footer h3{
+		padding-top: 30px;
+	}
+
 }
 
 
@@ -47,33 +62,46 @@ https://www.seojuku.com/blog/responsive-mediaquery.html
 	body{
 		font-size: 11px;
 	}
-	
+
 	header{
 		padding-top: 28px;
 	}
-	
+
 	h1{
 		font-size: 18px;
 		font-family: 'ＭＳ ゴシック';
+	}
+
+	#image_cities{
+		padding-top: 2.4em;
 	}
 	
 	#image_cities img{
 		width: 140px;
 		height: 112px;
 	}
-	
+
 	#image_flags img{
 		margin-left: 8px;
 		margin-right: 8px;
 		width: 112px;
 		height: 70px;
 	}
-	
+
+	#image_flags{
+		padding-top: 20px;
+		padding-bottom: 18px;
+	}
+
 	.skills{
 		font-size: 11px;
 	}
-	
+
 	footer{
 		text-align: center;
+	}
+
+	.footer_list{
+		margin-left: 0;
 	}
 }

@@ -11,7 +11,7 @@
 body{
 	width: 100%;
 	margin: 0;
-	background-image: url(./Background/45degreee_fabric.png);
+	background-image: url(./Background/art-abstract-grunge-decorative-light-260nw-776962879.jpg);
 	hyphens: auto;
 	font-family: Osaka,Meiryo, メイリオ,"游ゴシック体", "Yu Gothic",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 }
@@ -52,7 +52,6 @@ h1{
 
 article{
 	margin-top: 24px;
-	margin-bottom: 24px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -110,6 +109,7 @@ h2 small{
 	margin-top: 40px;
 	text-align: center;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	background-color: #92c3f1;
@@ -183,12 +183,29 @@ h3{
 	background: linear-gradient(180deg, #9932cc , #800000);
 }
 
+.pulldown_purple_click{
+	background: linear-gradient(180deg, #b54fb1, #1d0429);
+	font-size: 22px;
+}
+
 .pulldown_blue{
 	background: linear-gradient(180deg, #191970 , #1e90ff);
 }
 
+.pulldown_blue_click{
+	background-color: #21D4FD;
+	background-image: linear-gradient(11deg, #21D4FD 19%, #888aff 51%, #8880f7 79%, #e2b4f9 100%);
+	font-size: 22px;
+}
+
 .pulldown_red{
 	background: linear-gradient(180deg, #8b0000 , #b22222);
+}
+
+.pulldown_red_click{
+	background-color: #FEE140;
+	background-image: linear-gradient(355deg, #ff9a0b 11%, #FA709A 28%, #fb2870 67%, #ff3b3e 90%);
+	font-size: 22px;
 }
 
 .oversensitivity{
@@ -199,7 +216,7 @@ h3{
 }
 
 .menu_inclution{
-	padding: 16px 14px 16px 14px; 
+	padding: 16px 14px 16px 14px;
 	background-image: url(./Background/b076.jpg);
 	display: none;
 }
@@ -257,8 +274,17 @@ tbody a{
 	text-decoration: none;
 }
 
+#WirSagenDanke{
+	margin-bottom: -6px;
+	border-top: 2px solid rgba(218, 232, 111, 0.67);
+}
+
+#WirSagenDanke img{
+	width: 100%;
+	height: 13em;
+}
+
 footer{
-	margin-top: 90px;
 	background-image: url(./Background/footer2.jpg);
 }
 
